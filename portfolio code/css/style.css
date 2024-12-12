@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 span {
+    color: #ff5733; /* Customize the accent color */
+  }
+  
+  .btn-primary {
+    background-color: #ff5733;
+    border: none;
+  }
+  .nav-link.active {
+    color: #ff5722;
+    font-weight: bold;
+  }
+  
+  .card {
+    transition: transform 0.3s;
+  }
+  
+  
+    .card:hover {
+      transform: scale(1.05);
+      transition: 0.3s;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+  
+  
+  footer {
+    font-size: 0.9rem;
+  }
+  .hero-image {
+    width: 400px; /* Adjust as needed for size */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures image scaling fits well */
+    position: relative;
+    top: 47px; /* Adjust to position the image touching the line */
+}
+
+/* Add this if you want the image to align with the edge of the hero section */
+.hero-section {
+    display: flex;
+    align-items: center;
+}
+  
